@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Monitor Your Health</string>
+    <string name="first_button">Next-></string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="username">Enter The User Name</string>
+    <string name="password">Enter The Password</string>
+    <string name="enterusername">User Name</string>
+    <string name="enterpassword">Password</string>
+    <string name="enteremailid">Email-ID</string>
+    <string name="entercontactno">Contact Number</string>
+    <string name="logout">Log Out</string>
+    <string name="normal">View Normalised Values</string>
+    <string name="previous">View Previous Measurements</string>
+    <string name="measure">Measure Current Values</string>
+    <string name="thanks">Thanks for signing into a world of better Health!!!</string>
+    <string name="measure2">Measure</string>
+    <string name="Name">Enter Your Name</string>
+    <string name="Age">Enter Your Age</string>
+    <string name="Gender">Enter Your Gender</string>
+    <string name="Name1">Name:</string>
+    <string name="Age1">Age:</string>
+    <string name="Gender1">Gender:</string>
+    <string name="presentvalue1">Present Value:</string>
+    <string name="lastvalue1">Last Measured Value:</string>
+    <string name="correctvalue1">Correct Value:</string>
+    <string name="yes">Measuring For the First time?</string>
+    <string name="no">Already a User?</string>
+
+</resources>

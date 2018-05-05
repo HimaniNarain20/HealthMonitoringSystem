@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "502440593687",
+    "firebase_url": "https://monitoryourhealth-8f7d0.firebaseio.com",
+    "project_id": "monitoryourhealth-8f7d0",
+    "storage_bucket": "monitoryourhealth-8f7d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502440593687:android:6ded85ff130cf8be",
+        "android_client_info": {
+          "package_name": "com.example.monitoryourhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502440593687-1oeivimbncv4nfgami1reb6ficotfvkt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.monitoryourhealth",
+            "certificate_hash": "2205d6db3c30d5cbec26c338a602e07a07014934"
+          }
+        },
+        {
+          "client_id": "502440593687-3mr7o5odea9ili66lb0262f091gn3iuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAee5YmlbX6AGWp7i7PKQqN1naC2lbZ3zI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502440593687-3mr7o5odea9ili66lb0262f091gn3iuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

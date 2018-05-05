@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.monitoryourhealth.SignUpPage">
+
+    <RelativeLayout
+        android:id="@+id/rellay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.966">
+
+        <ImageView
+            android:id="@+id/background3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:alpha="0.65"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/finalbackground" />
+
+        <TextView
+            android:id="@+id/enterusername"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="210dp"
+            android:text="User Name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+            tools:text="@string/enterusername" />
+
+        <TextView
+            android:id="@+id/enterpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/enterusername"
+            android:layout_below="@+id/newusername"
+            android:layout_marginTop="79dp"
+            android:text="Password"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+            tools:text="@string/enterpassword" />
+
+        <EditText
+            android:id="@+id/newusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/enterusername"
+            android:layout_alignBottom="@+id/enterusername"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:ems="10"
+            android:inputType="text|textEmailAddress|textPersonName" />
+
+        <EditText
+            android:id="@+id/newpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/newusername"
+            android:layout_alignTop="@+id/enterpassword"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/continuesignup"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/newpassword"
+            android:layout_below="@+id/newpassword"
+            android:layout_marginEnd="28dp"
+            android:layout_marginTop="45dp"
+            android:background="@android:drawable/btn_default"
+            android:onClick="MoveToMainPage2"
+            android:text="Sign Up" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

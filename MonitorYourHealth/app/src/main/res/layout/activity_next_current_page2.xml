@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.monitoryourhealth.NextCurrentPage2">
+
+    <RelativeLayout
+        android:id="@+id/rellay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.966">
+
+        <ImageView
+            android:id="@+id/background2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:alpha="0.65"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/finalbackground" />
+
+        <TextView
+            android:id="@+id/name_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="176dp"
+            android:text="Name:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="24sp"
+            tools:text="@string/Name1" />
+
+        <TextView
+            android:id="@+id/age_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/name_view"
+            android:layout_below="@+id/name_view"
+            android:layout_marginTop="13dp"
+            android:text="Age:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="24sp"
+            tools:text="@string/Age1" />
+
+        <TextView
+            android:id="@+id/gender_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/age_view"
+            android:layout_below="@+id/age_view"
+            android:layout_marginTop="13dp"
+            android:text="Gender:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="24sp"
+            tools:text="@string/Gender1" />
+
+        <TextView
+            android:id="@+id/presentvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/gender_view"
+            android:layout_below="@+id/gender_view"
+            android:layout_marginTop="14dp"
+            android:text="Present Value:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:layout_below="@+id/presentvalue"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:background="@android:color/transparent"
+            android:onClick="call"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/calling1" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
